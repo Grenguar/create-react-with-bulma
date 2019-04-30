@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from '../img/logo.svg';
 import '../style/App.scss';
 
 function App() {
@@ -18,6 +18,21 @@ function App() {
           Learn React
         </a>
       </header>
+      <section className="section">
+        <div className="container">
+          <h1 className="title">Hello Bulma</h1>
+          <p className="subtitle">
+            My website uses <strong>Bulma</strong>!
+          </p>
+          <div>
+            <a
+              className="button is-success"
+              href="https://bulma.io/documentation/">
+              Learn Bulma
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
